@@ -8,7 +8,7 @@
 
 :root{
     
-    --accent-color: #1e293b;
+    --accent-color: #94a1b6;
     --primary-color: #1e293b;
     --status-color: #22c55e;
     --body-bg-color: #f4f6f9;
@@ -28,7 +28,7 @@ nav {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100px; */
+    height: 100px;*/ 
 
     
     display: flex;
@@ -54,7 +54,7 @@ nav > div:first-child {
 nav > div:last-child {
      display: flex;
      gap: 38px;
-    font-size: 1.5rem;
+     font-size: 1.5rem;
 
 }
 
@@ -73,7 +73,96 @@ nav a:hover {
 main {
 
     display: flex;
+    gap: 30px;
 
 }
+section {
+
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2.5px #ced5df;
+    border: 2px solid #919cad;
+    padding: 30px;
+
+}
+#profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    
+}
+ 
+.profile-image {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    background-color: #d0e1fc;
+    border-radius: 50%;
+    border: 5px solid #3881f5;
+    width: 150px;
+    height: 150px;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+
+#profile-card > h2 {
+
+    margin-top: 20px;
+
+}
+
+#profile-card > p {
+
+    margin-bottom: 20px;
+    color: var(--accent-color);
+
+}
+
+hr {
+
+   border: none;
+   border-top: 2px solid #e7eaf0;
+   width: 100%;
+
+}
+
+.stats {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    gap: 70px;
+    
+   
+
+}
+.stat-nb {
+
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+}
+
+.stat-label {
+
+    color: var(--accent-color);
+
+} 
+
+/*.status {
+
+    background-color: var(--status-color);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+   
+
+}*/
+
 
 
